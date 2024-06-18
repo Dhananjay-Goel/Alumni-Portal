@@ -1,0 +1,64 @@
+.community-events-heading-admin {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  width: 100vw;
+}
+
+.community-events-heading-admin h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  color: rgb(30, 58, 138);
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.community-events-admin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.reunion-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1000px;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(215, 213, 213);
+}
+
+.reunion-input-container select,
+.reunion-input-container input,
+.reunion-input-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+
+.reunion-input-container button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.reunion-input-container button:hover {
+  background-color: #0056b3;
+}

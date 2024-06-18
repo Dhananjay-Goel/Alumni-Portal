@@ -1,0 +1,63 @@
+.prof-message-heading-admin {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+  width: 100vw;
+}
+
+.prof-message-heading-admin h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  color: rgb(30, 58, 138); /* Corrected color value */
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.prof-message-admin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.prof-message-input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(215, 213, 213);
+}
+
+.prof-message-input-container input,
+.prof-message-input-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+
+.prof-message-input-container button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.prof-message-input-container button:hover {
+  background-color: #0056b3;
+}

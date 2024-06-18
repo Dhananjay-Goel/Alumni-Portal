@@ -1,0 +1,136 @@
+.Giving-back-heading {
+  text-align: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.Giving-back-heading h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 10px;
+  color: rgb(30 58 138);
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.main-cont-1 {
+  display: flex;
+  align-items: center;
+}
+
+.G_container-1 {
+  display: flex;
+  padding-left: 140px;
+  padding-right: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.G_container-1 img {
+  width: 40%;
+  height: 350px;
+  padding-top: 40px;
+  padding-right: 30px;
+  border-radius: 10px;
+}
+
+.Text_box {
+  width: 50%;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.Text_box h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.Text_box p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-bottom: 10px;
+}
+
+.outer_form {
+  padding: 50px;
+  padding-right: 200px;
+  padding-left:200px ;
+}
+
+.details_form {
+  border: 2px solid #cdcdcd; /* Add border to the form */
+  padding: 40px; /* Add padding inside the border */
+  margin-top: 20px; /* Add space above the form */
+  width: 100%; /* Make the form take full width */
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 500;
+}
+
+input,
+select {
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #d4d3d3;
+  font-weight: 300;
+}
+
+
+.submit  {
+  padding: 10px 20px;
+  background-color:rgb(30 58 138);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.text_input {
+  width: 100%;
+  background-color: #e0e0e0cb;
+  transition: background-color 0.3s ease;
+  transition: box-shadow 0.3s; /* Add transition effect */
+}
+
+.text_input:focus {
+  background-color: #fff;
+  border-color: #b3b3b3;
+  outline: none;
+}
+
+.text_input:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add box shadow on hover */
+}
+
+button:hover {
+  background-color: #535353;
+}
+
