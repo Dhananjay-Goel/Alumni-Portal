@@ -1,0 +1,227 @@
+.Become-Member-heading {
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .Become-Member-heading h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    color: rgb(30 58 138);
+    animation: fadeInUp 1s ease-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  /* Assuming your existing CSS for text_input-member and submit-member is already defined */
+
+  .member-info {
+    padding-left :200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .member-form-container {
+    border: 1px solid #ccc;
+    padding: 50px;
+    width: 100%;
+    padding-left: 50px;
+  }
+
+  .member-form-container h1 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .member-form-container p {
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 30px;
+  }
+  
+  .member-form-inside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #dadada;
+    border-radius:1cap;
+    animation: fadeInUp 1s ease-out;
+    padding-top : 40px;
+    padding-bottom: 40px;
+  }
+
+  .member-button{
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+  }
+
+  .error-message-mandatory-fields{
+    color:red;
+  }
+
+.member-column1 input,
+.member-column1 select,
+.member-column2 input,
+.member-column2 select {
+  border: none;
+  border-bottom: 1px solid black; /* Add a bottom border */
+  background-color: #dadada;
+}
+
+.custom-select .Select-control {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #dadada;
+}
+
+.member-column1 input,
+.member-column1 select,
+.member-column2 input,
+.member-column2 select :focus {
+  outline:none;
+}
+
+.member-form-payment{
+  display: flex;
+  flex-direction: row;
+}
+
+.member-form-payment2{
+  background-color: #dadada;
+  padding: 50px;
+  width: 800px;
+  margin-right: 20px;
+  text-align: center; 
+  font-size: large;
+}
+
+.member-form-payment2 select{
+  width: 90%;
+}
+
+.membership-card {
+  border: 1px solid  black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color:  rgb(55 48 163);
+  color:#fff
+}
+
+.membership-card-box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+  .submit-member {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:200px
+  }
+  
+  .submit-member:hover {
+    background-color: #0056b3;
+  }
+  
+  .member-form-container2 {
+    border: 1px solid #ccc;
+    padding: 50px;
+    width: 100%;
+    padding-left: 50px;
+  }
+
+  .member-form-container2 h1 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .member-form-container2 p {
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 30px;
+  }
+
+  .member-form-inside2 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    justify-content: flex-start;
+    border-radius:1cap;
+    animation: fadeInUp 1s ease-out;
+  }
+
+  .working-details{
+    /* justify-content: flex-start; */
+    justify-content: space-between;
+  }
+
+  .working-details-inside{
+    background-color: #dadada;
+    border-radius:1cap;
+    animation: fadeInUp 1s ease-out;
+    padding : 50px;
+    margin-bottom: 30px;
+  }
+
+  .working-details-inside input {
+    border: none;
+    border-bottom: 1px solid black; /* Add a bottom border */
+    background-color: #dadada;
+  }
+
+  .working-details-inside input,
+  .working-details-inside select :focus {
+    outline:none;
+  }
+  
+
+  .member-form-container3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .member-form-container3 h1 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 20px;
+  }
+
+  .add-div-button {
+    display: block;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #505050;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width:110px;
+    font-size: 0.6rem;
+  }
+
+  
+  .add-div-button:hover {
+    background-color: #212121;
+  }
+
+

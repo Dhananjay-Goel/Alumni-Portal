@@ -1,0 +1,187 @@
+/* Donate.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.donate-container {
+  margin: 0 auto;
+  position: relative;
+}
+
+.navbar {
+  background-color: #000000;
+  padding: 10px;
+  color: white;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar li {
+  margin-right: 15px;
+}
+
+.donate-content {
+  margin-top: 20px;
+}
+
+.donate-content img {
+  width: 100%;
+  height: 600px;
+}
+
+.text-on-image {
+  position: absolute;
+  left: 30px;
+  top : 100px ;
+  max-width: 500px;
+  font-size: 30px;
+  color: aliceblue;
+}
+
+
+.donate-button {
+  background-color: #ffffff; /* Set the background color of the button */
+  color: rgb(0, 0, 0); /* Set the text color of the button */
+  padding: 5px 10px; /* Adjust the padding of the button */
+  font-size: 1.5rem; /* Adjust the font size of the button text */
+  border: none; /* Remove the button border */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  border-radius: 20px;
+}
+
+.container1 {
+  width: 100%; /*Set the width to 100% of the container */
+  height: auto; /* Adjust height as needed */
+  display: flex;
+  /* justify-content: flex-end; Add space between container1 and container2 */
+  align-items: center; /* Center vertically */
+  margin-top: 20px; /* Add margin to separate from the above content */
+}
+
+.container1 img {
+  width: 30%; /* Set the image width to 100% of the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  margin-left: 10%;
+  margin-top: 30px;
+}
+
+.container2 {
+  width: 100%; /*Set the width to 100% of the container */
+  height: auto; /* Adjust height as needed */
+  display: flex;
+  justify-content: flex-end; /* Add space between container1 and container2 */
+  align-items: center; /* Center vertically */
+  margin-top: 30px; /* Add margin to separate from the above content */
+  margin-right: 10%;
+}
+
+.container2 .box {
+  width: 50%; /* Set the width of the box to 50% of the container2 */
+  padding: 20px;
+  background-color: #f0f0f0; /* Set the background color of the box */
+  border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+  
+}
+
+.container2 .box h1 {
+  margin: 0; /* Remove default margin inside the box */
+  font-size: 1.5rem; /* Adjust font size as needed */
+  color: #000000; /* Set text color */
+  font-weight: 500;
+}
+
+.container2 .box p {
+  margin: 0; /* Remove default margin inside the box */
+  font-size: 1rem; /* Adjust font size as needed */
+  color: #000000; /* Set text color */
+}
+
+.container3 {
+  width: 100%; /*Set the width to 100% of the container */
+  height: auto; /* Adjust height as needed */
+  display: flex;
+  justify-content: flex-start; /* Add space between container1 and container2 */
+  align-items: center; /* Center vertically */
+  margin-top: 20px; /* Add margin to separate from the above content */
+  /* margin-left: 30px; */
+  /* margin-right: 5%; */
+}
+
+.container3 img {
+  margin-left: 2%;
+  display: flex;
+  justify-content: flex-end;
+  width: 27%;
+  height :auto ;
+}
+
+.container3 .box {
+  margin-left: 5%;
+  width: 50%; /* Set the width of the box to 50% of the container2 */
+  padding: 20px;
+  background-color: #f0f0f0; /* Set the background color of the box */
+  border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+.container3 .box p {
+  margin: 0; /* Remove default margin inside the box */
+  font-size: 1rem; /* Adjust font size as needed */
+  color: #333; /* Set text color */
+}
+
+.container4 {
+  width: 100%; /*Set the width to 100% of the container */
+  height: auto; /* Adjust height as needed */
+  display: flex;
+  justify-content: flex-start; /* Add space between container1 and container2 */
+  align-items: center; /* Center vertically */
+  margin-top: 30px; /* Add margin to separate from the above content */
+}
+
+.container4 .box {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%; /* Set the width of the box to 50% of the container2 */
+  padding: 20px;
+  background-color: #f0f0f0; /* Set the background color of the box */
+  border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle box shadow */
+}
+
+.container4 .box p {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin: 0; /* Remove default margin inside the box */
+  font-size: 1rem; /* Adjust font size as needed */
+  color: #333; /* Set text color */
+}
+
+.container4 .box h4 {
+  text-align: center;
+  color: #333;
+}
+
+.query {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 20px;
+  height: 100px;
+  background-color: #030cfd;
+}
